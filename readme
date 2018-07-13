@@ -1,0 +1,9 @@
+将 ht.js、ht-ui.js、ht-ui-framework.js 复制到 dist/libs/ 目录下
+
+运行方式：
+
+// 测试开发
+npm run start
+
+// 部署
+npm run build

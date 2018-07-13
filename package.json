@@ -1,0 +1,27 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "eslint-config-google": "^0.9.1",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.7",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.0.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "i18next": "^11.3.3",
+    "mitt": "^1.1.3"
+  }
+}
